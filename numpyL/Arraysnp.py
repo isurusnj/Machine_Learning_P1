@@ -58,3 +58,11 @@ print("index of max num",np.argmax(numbers))
 print("index of min num",np.argmin(numbers))
 print(" max num",np.max(numbers))
 print(" min num",np.min(numbers))
+
+
+#Reshaping Array
+
+num2 = np.array([1,2,3,4,5,6])
+
+newNum = num2.reshape(2,3)
+print(newNum)
